@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 380" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284c7"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0d9488"/>
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="980" height="380" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="490" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a" letter-spacing="0.5">ARCHITECTURE MULTI-POSTES EN RÉSEAU LOCAL (CHRONOMÉTRAGE BACKYARD ULTRA)</text>
+
+  <!-- POSTES OPÉRATEURS (GAUCHE) -->
+  <rect x="25" y="58" width="275" height="295" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="58" width="275" height="32" rx="10" fill="#0284c7"/>
+  <rect x="25" y="80" width="275" height="10" fill="#0284c7"/>
+  <text x="162.5" y="79" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">POSTES DE POINTAGE (LAN / WI-FI)</text>
+
+  <rect x="42" y="106" width="241" height="66" rx="6" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+  <text x="162.5" y="128" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0369a1">Ordinateur / Tablette #1</text>
+  <text x="162.5" y="146" text-anchor="middle" font-size="11" fill="#475569">Saisie rapide dossards + Repêchage</text>
+  <text x="162.5" y="162" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0284c7">Polling GET /api/state (1 Hz)</text>
+
+  <rect x="42" y="186" width="241" height="66" rx="6" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+  <text x="162.5" y="208" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0369a1">Ordinateur / Tablette #2</text>
+  <text x="162.5" y="226" text-anchor="middle" font-size="11" fill="#475569">Saisie simultanée sur la ligne</text>
+  <text x="162.5" y="242" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0284c7">Requête POST /api/submit</text>
+
+  <rect x="42" y="266" width="241" height="66" rx="6" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+  <text x="162.5" y="288" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0369a1">Ordinateur / Écran #N</text>
+  <text x="162.5" y="306" text-anchor="middle" font-size="11" fill="#475569">Affichage compte à rebours &amp; logs</text>
+  <text x="162.5" y="322" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0284c7">Synchronisation horloge centrale</text>
+
+  <!-- SERVEUR FLASK (CENTRE) -->
+  <rect x="360" y="58" width="280" height="295" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="360" y="58" width="280" height="32" rx="10" fill="#0f766e"/>
+  <rect x="360" y="80" width="280" height="10" fill="#0f766e"/>
+  <text x="500" y="79" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">SERVEUR PYTHON FLASK (0.0.0.0:8000)</text>
+
+  <rect x="378" y="106" width="244" height="72" rx="6" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+  <text x="500" y="128" text-anchor="middle" font-size="12.5" font-weight="700" fill="#115e59">Verrou Mutex (threading.Lock)</text>
+  <text x="500" y="147" text-anchor="middle" font-size="11" fill="#334155">Sérialisation des requêtes concurrentes</text>
+  <text x="500" y="164" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0d9488">Anti-doublon par boucle (set O(1))</text>
+
+  <rect x="378" y="192" width="244" height="140" rx="6" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="500" y="215" text-anchor="middle" font-size="12.5" font-weight="700" fill="#115e59">Moteur Règles Backyard Ultra</text>
+  <text x="392" y="238" font-size="11" fill="#334155">• Boucles fixes de 60 minutes</text>
+  <text x="392" y="258" font-size="11" fill="#334155">• Calcul Temps Tour &amp; Temps Repos</text>
+  <text x="392" y="278" font-size="11" fill="#334155">• Période de grâce auto (60 s)</text>
+  <text x="392" y="298" font-size="11" fill="#334155">• Repêchage manuel boucle N-1</text>
+  <text x="392" y="318" font-size="10.5" font-weight="600" fill="#0f766e">• Statuts : OK / In extremis / DNF</text>
+
+  <!-- PERSISTANCE CSV (DROITE) -->
+  <rect x="700" y="58" width="255" height="295" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="700" y="58" width="255" height="32" rx="10" fill="#b45309"/>
+  <rect x="700" y="80" width="255" height="10" fill="#b45309"/>
+  <text x="827.5" y="79" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">STOCKAGE &amp; EXPORT TEMPS RÉEL</text>
+
+  <rect x="718" y="115" width="219" height="95" rx="6" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="827.5" y="140" text-anchor="middle" font-size="12.5" font-weight="700" fill="#92400e">participants.csv</text>
+  <text x="827.5" y="160" text-anchor="middle" font-size="11" fill="#475569">Chargé en RAM au démarrage</text>
+  <text x="827.5" y="178" text-anchor="middle" font-size="11" fill="#475569">Association Dossard → Identité</text>
+  <text x="827.5" y="196" text-anchor="middle" font-size="10.5" font-weight="600" fill="#b45309">Recherche instantanée par dictionnaire</text>
+
+  <rect x="718" y="230" width="219" height="100" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="827.5" y="255" text-anchor="middle" font-size="12.5" font-weight="700" fill="#78350f">resultats_backyard.csv</text>
+  <text x="827.5" y="275" text-anchor="middle" font-size="11" fill="#92400e">Écriture disque immédiate (append)</text>
+  <text x="827.5" y="293" text-anchor="middle" font-size="11" fill="#92400e">Boucle, Dossard, Nom, Heure,</text>
+  <text x="827.5" y="311" text-anchor="middle" font-size="10.5" font-weight="600" fill="#78350f">Temps_Boucle, Temps_Repos, Statut</text>
+
+  <!-- FLÈCHES -->
+  <line x1="283" y1="140" x2="354" y2="140" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="283" y1="220" x2="354" y2="220" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="283" y1="298" x2="354" y2="298" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="718" y1="162" x2="646" y2="162" stroke="#0d9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <line x1="640" y1="280" x2="712" y2="280" stroke="#0d9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+</svg>
