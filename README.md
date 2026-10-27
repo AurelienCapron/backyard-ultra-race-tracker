@@ -60,17 +60,17 @@ Lors d'une arrivée groupée sur la ligne, un seul opérateur peut difficilement
 
 | Pupitre de pointage | Affichage TV (Leaderboard) |
 | :---: | :---: |
-| <img src="Capture d’écran page pointage.png" height="250" alt="Interface de pointage"> | <img src="Capture d’écran page TV.png" height="250" alt="Écran TV dynamique"> |
+| <img src="assets/Capture d'écran page pointage.png" height="250" alt="Interface de pointage"> | <img src="assets/Capture d'écran page TV.png" height="250" alt="Écran TV dynamique"> |
 | *Interface de contrôle principale, sécurisée par code PIN.* | *Tableau de bord auto-adaptatif pour affichage sur vidéoprojecteur.* |
 
 | Écran Speaker | Tableau de Classement |
 | :---: | :---: |
-| <img src="Capture d’écran page Speaker.png" height="250" alt="Écran d'animation Speaker"> | <img src="Capture d’écran page Classement.png" height="250" alt="Classement général"> |
+| <img src="assets/Capture d'écran page Speaker.png" height="250" alt="Écran d'animation Speaker"> | <img src="assets/Capture d'écran page Classement.png" height="250" alt="Classement général"> |
 | *Vue détaillée de l'état du peloton pour l'animation.* | *Classement en direct avec fonctions d'export Excel.* |
 
 | Borne Coureur | Page Podium |
 | :---: | :---: |
-| <img src="QRcode_Stats_Backyard.jpg" height="250" alt="Borne d'accès coureur"> | <img src="Capture d’écran page Podium.png" height="250" alt="Affichage des résultats"> |
+| <img src="assets/QRcode_Stats_Backyard.jpg" height="250" alt="Borne d'accès coureur"> | <img src="assets/Capture d'écran page Podium.png" height="250" alt="Affichage des résultats"> |
 | *Affiche scannable via QR code menant aux statistiques individuelles via ngrok.* | *Résultats finaux et records absolus de l'épreuve.* |
 
 ---
@@ -85,12 +85,13 @@ backyard-ultra-race-tracker/
 ├── app.py                          # Serveur web multi-postes (Flask + API REST + UIs HTML)
 ├── participants.csv                # Fichier source des coureurs inscrits
 ├── resultats_backyard.csv          # Fichier de base de données de la course généré automatiquement
-├── Capture d’écran page Classement.jpg
-├── Capture d’écran page pointage.jpg
-├── Capture d’écran page Podium.jpg
-├── Capture d’écran page Speaker.jpg
-├── Capture d’écran page TV.jpg
-├── QRcode_Stats_Backyard.jpg
+├── assets/                         # Dossier contenant les captures d'écran et ressources
+│   ├── Capture d'écran page Classement.png
+│   ├── Capture d'écran page pointage.png
+│   ├── Capture d'écran page Podium.png
+│   ├── Capture d'écran page Speaker.png
+│   ├── Capture d'écran page TV.png
+│   └── QRcode_Stats_Backyard.jpg
 └── static/
     ├── logo_backyard.png           # Logo de l'événement
     ├── logo_tdr.png                # Logo du partenaire TDR
