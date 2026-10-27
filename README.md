@@ -60,17 +60,17 @@ Lors d'une arrivée groupée sur la ligne, un seul opérateur peut difficilement
 
 | Pupitre de pointage | Affichage TV (Leaderboard) |
 | :---: | :---: |
-| <img src="Capture d’écran page pointage.jpg" height="250" alt="Interface de pointage"> | <img src="Capture d’écran page TV.jpg" height="250" alt="Écran TV dynamique"> |
+| <img src="Capture d’écran page pointage.png" height="250" alt="Interface de pointage"> | <img src="Capture d’écran page TV.png" height="250" alt="Écran TV dynamique"> |
 | *Interface de contrôle principale, sécurisée par code PIN.* | *Tableau de bord auto-adaptatif pour affichage sur vidéoprojecteur.* |
 
 | Écran Speaker | Tableau de Classement |
 | :---: | :---: |
-| <img src="Capture d’écran page Speaker.jpg" height="250" alt="Écran d'animation Speaker"> | <img src="Capture d’écran page Classement.jpg" height="250" alt="Classement général"> |
+| <img src="Capture d’écran page Speaker.png" height="250" alt="Écran d'animation Speaker"> | <img src="Capture d’écran page Classement.png" height="250" alt="Classement général"> |
 | *Vue détaillée de l'état du peloton pour l'animation.* | *Classement en direct avec fonctions d'export Excel.* |
 
 | Borne Coureur | Page Podium |
 | :---: | :---: |
-| <img src="QRcode_Stats_Backyard.jpg" height="250" alt="Borne d'accès coureur"> | <img src="Capture d’écran page Podium.jpg" height="250" alt="Affichage des résultats"> |
+| <img src="QRcode_Stats_Backyard.jpg" height="250" alt="Borne d'accès coureur"> | <img src="Capture d’écran page Podium.png" height="250" alt="Affichage des résultats"> |
 | *Affiche scannable via QR code menant aux statistiques individuelles via ngrok.* | *Résultats finaux et records absolus de l'épreuve.* |
 
 ---
