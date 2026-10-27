@@ -1,5 +1,128 @@
-Dossard,Nom,Prenom
-1,Martin,Lucas
-7,Bernard,Emma
-12,Dubois,Hugo
-42,Dupont,Jean
+Dossard;Nom;Prenom;Prénom NOM
+10;SIMONNOT;Sebastien;Sebastien simonnot
+11;NATHAN;Nguyen;Nguyen Nathan
+12;FLEURY;Martin;Martin FLEURY
+13;BAROCHE;Benjamin;Benjamin BAROCHE
+14;FUSARO;Raphael;Raphael FUSARO
+15;FRAGOLA--HARMS;Noah;Noah FRAGOLA--HARMS
+16;VINCENDET;Martin;Martin VINCENDET
+17;BAYON;Gaston;Gaston BAYON
+18;LABALLERY;Dorian;Dorian LABALLERY
+19;HUGONNARD-ROCHE;Clément;Clément HUGONNARD-ROCHE
+20;VIANDON;Alexis;Alexis VIANDON
+21;COMBES;Baptiste;Baptiste COMBES
+22;SUDRE;Tom;Tom SUDRE
+23;POTHIER;Xavier;Xavier POTHIER
+24;BLANC;Noah;Noah BLANC
+25;FONQUERNIE;Virgil;Virgil FONQUERNIE
+26;SOURROUILLE;Collin;Collin SOURROUILLE
+27;CHAIX;Gabriel;Gabriel Chaix
+28;CADI;Gautier;Gautier CADI
+29;GLELAH;Karim;Karim GLELAH
+30;ABT;Arthur;Arthur ABT
+31;ARNAUD;Lucas;Lucas ARNAUD
+32;BONNAUD;Matthias;Matthias BONNAUD
+33;BERGOEND;Paul;Paul BERGOEND
+34;KNIBIEHLY;Jules;Jules KNIBIEHLY
+35;RODRIGUEZ;Camill;Camill RODRIGUEZ
+36;MERCIER;Alexandre;Alexandre mercier
+37;CHALLIER;Zoe;Zoe challier
+38;PARUSCIO RAVET;Pierre;Pierre PARUSCIO RAVET
+39;ZEINELKABIDEN;Yelaman;Yelaman ZEINELKABIDEN
+40;BÉGAUD POULARD;Théo;Théo BÉGAUD POULARD
+41;ROGER;Thiméo;Thiméo Roger
+42;VAUR;Anthony;Anthony vaur
+43;CHINH NGUYEN KHAC;Trung;Trung Chinh Nguyen Khac
+44;FERNANDEZ;Bertille;Bertille FERNANDEZ
+45;BOURGOIN;Thibault;Thibault BOURGOIN
+46;BLANC;Jolan;Jolan BLANC
+47;VOZINSKI;Joris;Joris VOZINSKI
+48;VANDERBECKEN;Eva;Eva Vanderbecken
+49;GANACHAUD;Martin;Martin GANACHAUD
+50;MONGELLI;Enzo;Enzo MONGELLI
+51;SYLVIE;Ladreyt;Ladreyt Sylvie
+52;HENO;Samuel;Samuel HENO
+53;CAMBIONE;Maxime;Maxime CAMBIONE
+54;CHAIX;Timothée;Timothée CHAIX
+55;DELAPORTE;Lucas;Lucas DELAPORTE
+56;GENILLON;Aurélien;Aurélien GENILLON
+57;MOULAGER;Emie;Emie MOULAGER
+58;HESSABI;Mathieu;Mathieu Hessabi
+59;QUENET;Arthus;Arthus QUENET
+60;MEYER;Maxence;Maxence MEYER
+61;STRIPPOLI;Nicolas;Nicolas STRIPPOLI
+62;GRISON;Emilien;Emilien GRISON
+63;BOIS;Leopold;Leopold Bois
+64;SALOU;Corentin;Corentin SALOU
+65;PERCHET;Clément;Clément PERCHET
+66;RAY;Tony;Tony RAY
+67;ANTOINE;Mathieu;Mathieu ANTOINE
+68;GALLIAN;Aubin;Aubin GALLIAN
+69;PALTA;Sélène;Sélène PALTA
+70;COMPAIN;Emeline;Emeline Compain
+71;ANTOINE;Sarah;Sarah ANTOINE
+72;MIGNARD;Léopold;Léopold Mignard
+73;WALLON;Virgile;Virgile wallon
+74;AYBEY;Tolga;Tolga AYBEY
+75;MORTIER;Yan;Yan Mortier
+76;PRIETO;Charlotte;Charlotte Prieto
+77;BURNET;Mathilde;Mathilde BURNET
+78;MARCHAL;Nathan;Nathan MARCHAL
+79;PLAGNARD;Justin;Justin PLAGNARD
+80;PASCAL;Gabriel;Gabriel PASCAL
+81;MÉNAGER;Manon;Manon Ménager
+82;GELIN;Simon;Simon GELIN
+83;LEROY;Bastien;Bastien Leroy
+84;BARRAL-CREPIEUX;Damien;Damien BARRAL-CREPIEUX
+85;MERLIER;Dorian;Dorian MERLIER
+86;MATTEO ELIA;Sciarresi;Sciarresi Matteo Elia
+87;CABANNES;Sarah;Sarah Cabannes
+88;VAYSSIÉ;Maëlis;Maëlis Vayssié
+89;LEISERING;Dimitri;Dimitri LEISERING
+90;DE GARIDEL-THORON;Martin;Martin De Garidel-Thoron
+91;CORVIONE;Matéo;Matéo CORVIONE
+92;MILAN;Guillot;Guillot Milan
+93;JOURY;Antoine;antoine joury
+94;FARDEL;Etienne;Etienne FARDEL
+95;COLOMBET;Etienne-Gabriel;Etienne-Gabriel COLOMBET
+96;LAKSIMI;Hiba;Hiba LAKSIMI
+97;FAURE;Enzo;Enzo faure
+98;COLIN;Dunand;Dunand Colin
+99;CARDAS;Tudor;Tudor CARDAS
+100;DELORME;Mathis;Mathis DELORME
+101;HOFFERT;Esteban;Esteban Hoffert
+102;DEGRAVE;Gaspard;Gaspard Degrave
+103;HAKKARI;Akram;Akram hakkari
+104;FROMENTIN;Noémie;Noémie Fromentin
+105;BATEAU;Lucas;Lucas BATEAU
+106;ROUSSEAU;Timothée;Timothée ROUSSEAU
+107;GOYET;Camille;Camille GOYET
+108;JOURY;David;David Joury
+109;CHARENSOL;Jules;Jules Charensol
+110;LANTHIEZ;Thibault;Thibault LANTHIEZ
+111;VARIN;Loïc;Loïc Varin
+112;PECQUEUR TERRAIL;Théo;Théo PECQUEUR TERRAIL
+113;KOLEVA;Kristin;Kristin KOLEVA
+114;YOUSSEF;Charbel;Charbel YOUSSEF
+115;LEROUX;Benjamin;Benjamin LEROUX
+116;FAVROU;Lucas;Lucas FAVROU
+117;VUILLAUME;Edgar;Edgar VUILLAUME
+118;MANIKIAN;Hugo;Hugo MANIKIAN
+119;ROSTAING;Thibaut;Thibaut ROSTAING
+120;ROBIOLLE;Alexis;Alexis Robiolle
+121;THOMAS-SEMENCE;Gaétan;Gaétan THOMAS-SEMENCE
+122;FARINEAU;Rafaël;Rafaël FARINEAU
+123;CONDAMINE;Léo;Léo CONDAMINE
+124;RÉTY;Christophe;Christophe RÉTY
+125;JABLONSKI;Maïlys;Maïlys JABLONSKI
+126;DAVID;Ambre;Ambre DAVID
+127;BECLE;Etienne;Etienne BECLE
+128;POBEL;Eloïse;Eloïse POBEL
+129;GINESTET;Cristobal;Cristobal GINESTET
+130;IBRAHIMI;Alisina;Alisina IBRAHIMI
+131;VIRELY;Florent;Florent Virely
+132;DELERUE;Charles;Charles Delerue
+133;BURES;Kyllian;Kyllian BURES
+134;BULIC;Julien;Julien BULIC
+135;LE SANG;Angelo;Angelo Le Sang
+136;BULIC;Julien;Julien BULIC
