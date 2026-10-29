@@ -26,24 +26,24 @@ Application de chronométrage et de pointage de dossards en temps réel conçue 
 
 | Pupitre de pointage | Affichage TV (Leaderboard) |
 | :---: | :---: |
-| <img src="assets/Capture%20d'écran%20page%20pointage.png" height="250" alt="Interface de pointage"> | <img src="assets/Capture%20d'écran%20page%20TV.png" height="250" alt="Écran TV dynamique"> |
+| ![Interface de pointage](<assets/Capture d'écran page pointage.png>) | ![Écran TV dynamique](<assets/Capture d'écran page TV.png>) |
 | *Interface de contrôle principale, sécurisée par code PIN.* | *Tableau de bord auto-adaptatif pour affichage sur vidéoprojecteur.* |
 
 | Écran Speaker | Tableau de Classement |
 | :---: | :---: |
-| <img src="assets/Capture%20d'écran%20page%20Speaker.png" height="250" alt="Écran d'animation Speaker"> | <img src="assets/Capture%20d'écran%20page%20Classement.png" height="250" alt="Classement général"> |
+| ![Écran d'animation Speaker](<assets/Capture d'écran page Speaker.png>) | ![Classement général](<assets/Capture d'écran page Classement.png>) |
 | *Vue détaillée de l'état du peloton pour l'animation.* | *Classement en direct avec fonctions d'export Excel.* |
 
 | Borne Coureur | Page Podium |
 | :---: | :---: |
-| <img src="assets/QRcode_Stats_Backyard.jpg" height="250" alt="Borne d'accès coureur"> | <img src="assets/Capture%20d'écran%20page%20Podium.png" height="250" alt="Affichage des résultats"> |
+| ![Borne d'accès coureur](<assets/QRcode_Stats_Backyard.jpg>) | ![Affichage des résultats](<assets/Capture d'écran page Podium.png>) |
 | *Affiche scannable via QR code menant aux statistiques individuelles via ngrok.* | *Résultats finaux et records absolus de l'épreuve.* |
 
 ---
 
 ## Architecture réseau et fonctionnement
 
-![Architecture Réseau](assets/network_architecture.svg)
+![Architecture Réseau](<assets/network_architecture.svg>)
 
 Lors d'une arrivée groupée sur la ligne, un seul opérateur peut difficilement saisir tous les numéros de dossards à la volée. Le projet propose une architecture Client-Serveur en réseau local (`app.py` — Flask) ouverte sur l'extérieur via **ngrok** :
 
