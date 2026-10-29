@@ -26,24 +26,24 @@ Application de chronométrage et de pointage de dossards en temps réel conçue 
 
 | Pupitre de pointage | Affichage TV (Leaderboard) |
 | :---: | :---: |
-| ![Interface de pointage](<assets/Capture d'écran page pointage.png>) | ![Écran TV dynamique](<assets/Capture d'écran page TV.png>) |
+| ![Interface de pointage](assets/page_pointage.png) | ![Écran TV dynamique](assets/page_tv.png) |
 | *Interface de contrôle principale, sécurisée par code PIN.* | *Tableau de bord auto-adaptatif pour affichage sur vidéoprojecteur.* |
 
 | Écran Speaker | Tableau de Classement |
 | :---: | :---: |
-| ![Écran d'animation Speaker](<assets/Capture d'écran page Speaker.png>) | ![Classement général](<assets/Capture d'écran page Classement.png>) |
+| ![Écran d'animation Speaker](assets/page_speaker.png) | ![Classement général](assets/page_classement.png) |
 | *Vue détaillée de l'état du peloton pour l'animation.* | *Classement en direct avec fonctions d'export Excel.* |
 
 | Borne Coureur | Page Podium |
 | :---: | :---: |
-| ![Borne d'accès coureur](<assets/QRcode_Stats_Backyard.jpg>) | ![Affichage des résultats](<assets/Capture d'écran page Podium.png>) |
+| ![Borne d'accès coureur](assets/QRcode_Stats_Backyard.jpg) | ![Affichage des résultats](assets/page_podium.png) |
 | *Affiche scannable via QR code menant aux statistiques individuelles via ngrok.* | *Résultats finaux et records absolus de l'épreuve.* |
 
 ---
 
 ## Architecture réseau et fonctionnement
 
-![Architecture Réseau](<assets/network_architecture.svg>)
+![Architecture Réseau](assets/network_architecture.svg)
 
 Lors d'une arrivée groupée sur la ligne, un seul opérateur peut difficilement saisir tous les numéros de dossards à la volée. Le projet propose une architecture Client-Serveur en réseau local (`app.py` — Flask) ouverte sur l'extérieur via **ngrok** :
 
@@ -86,11 +86,11 @@ backyard-ultra-race-tracker/
 ├── participants.csv                # Fichier source des coureurs inscrits
 ├── resultats_backyard.csv          # Base de données de la course générée automatiquement
 ├── assets/                         # Dossier contenant les ressources graphiques
-│   ├── Capture d'écran page Classement.png
-│   ├── Capture d'écran page Podium.png
-│   ├── Capture d'écran page Speaker.png
-│   ├── Capture d'écran page TV.png
-│   ├── Capture d'écran page pointage.png
+│   ├── page_classement.png
+│   ├── page_podium.png
+│   ├── page_speaker.png
+│   ├── page_tv.png
+│   ├── page_pointage.png
 │   ├── QRcode_Stats_Backyard.jpg
 │   └── network_architecture.svg    # Schéma de l'architecture réseau
 └── static/
