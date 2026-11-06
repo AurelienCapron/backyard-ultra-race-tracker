@@ -97,6 +97,7 @@ backyard-ultra-race-tracker/
     ├── logo_backyard.png           # Logo de l'événement
     ├── logo_tdr.png                # Logo du partenaire TDR
     └── logo_fitness_park.png       # Logo du partenaire Fitness Park
+```
 
 ---
 
